@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 78%;
+    max-width: 1600px; */
+    font-family: "Fira Sans", sans-serif;
+    background-color: #F5F5F5;
+}
+
+/* sheare code */
+nav,
+.banner,
+.Pillars-card,
+.vision-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.heading-section h2 {
+    font-size: 40px;
+    margin-bottom: 32px;
+    color: #0E0E0E;
+}
+
+.heading-section p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E70;
+}
+
+.banner,
+.PillarsCard-container,
+.message-container {
+    margin-bottom: 80px;
+}
+
+/* main code */
+
+/* navigation bar design code start */
+nav {
+    padding: 24px 0;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    color: #0E0E0E;
+}
+
+.sing-up button {
+    outline: none;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    background: none;
+}
+
+/* navigation bar design code end */
+
+
+
+/* banner/hero-section design code start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    background-color: #C6E4D6;
+    padding: 80px 60px;
+    border-radius: 24px;
+}
+
+.banner-text p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E50;
+    margin-bottom: 24px;
+}
+
+.banner-text h4 {
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.banner-text button {
+    padding: 14px 34px;
+    background-color: #006A50;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+/* banner/hero-section design code end */
+/* Pillars Card section design code start */
+.cards {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E15;
+    box-shadow: 0px 4px 4px #00000025;
+}
+
+.card img {
+    width: 64px;
+    margin-bottom: 24px;
+}
+
+.card h5 {
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E70;
+    width: 254px;
+}
+
+/* Pillars Card section design code end */
+/* Vision Card section design code start */
+.vision {
+    margin-bottom: 32px;
+}
+
+.vision-card {
+    margin-top: 32px;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.vision-card img {
+    width: 64px;
+    margin-bottom: 24px;
+}
+
+.vision-card h5 {
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.vision-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E70;
+    width: 346px;
+    margin-bottom: 24px;
+}
+
+.vision-card button {
+    padding: 11px 20px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* background color and button color  start*/
+#color-one {
+    background-color: #D5E1F5;
+}
+
+#color-one button {
+    background-color: #5490F5;
+}
+
+#color-two {
+    background-color: #C6E4D6;
+}
+
+#color-two button {
+    background-color: #09A15C;
+}
+
+#color-three {
+    background-color: #F7EBCF;
+}
+
+#color-three button {
+    background-color: #FFC239;
+}
+
+/* background color and button color  end*/
+
+/* Vision Card section design code end */
+/* aurthor section design code start */
+.message-container {
+    background-color: white;
+    border-radius: 16px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+}
+
+.message {
+    padding: 48px 24px;
+}
+
+.message p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E80;
+    margin-bottom: 12px;
+}
+
+.author h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E80;
+    margin-bottom: 4px;
+}
+
+.author p {
+    color: #C6E4D6;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* aurthor section design code end */
