@@ -15,7 +15,8 @@ body {
 nav,
 .banner,
 .Pillars-card,
-.vision-container {
+.vision-container,
+.opinion-container {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -34,7 +35,8 @@ nav,
 
 .banner,
 .PillarsCard-container,
-.message-container {
+.message-container,
+.opinion-container {
     margin-bottom: 80px;
 }
 
@@ -251,3 +253,59 @@ nav {
 }
 
 /* aurthor section design code end */
+
+.opinion {
+    padding: 32px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table thead tr,
+table tbody td {
+    border: 1px solid #0E0E0E15;
+}
+
+.questions {
+    padding: 24px 0 24px 24px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #C6E4D6;
+    width: 980px;
+}
+
+.select-opinion {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #C6E4D6;
+    padding: 24px;
+    text-wrap: nowrap;
+}
+
+
+.questions-data {
+    padding: 24px 0 24px 24px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    width: 980px;
+}
+
+.select-one {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.one-right {
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #C6E4D6;
+    border-radius: 5px;
+}
