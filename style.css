@@ -16,7 +16,8 @@ nav,
 .banner,
 .Pillars-card,
 .vision-container,
-.opinion-container {
+.opinion-container,
+.recent-news-container {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -31,13 +32,26 @@ nav,
     font-size: 16px;
     line-height: 24px;
     color: #0E0E0E70;
+    margin-bottom: 32px;
 }
 
 .banner,
 .PillarsCard-container,
 .message-container,
-.opinion-container {
+.opinion-container,
+.recent-news-container {
     margin-bottom: 80px;
+}
+
+.btn {
+    padding: 13px 26px;
+    background-color: #006A50;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
 }
 
 /* main code */
@@ -144,12 +158,9 @@ nav {
 
 /* Pillars Card section design code end */
 /* Vision Card section design code start */
-.vision {
-    margin-bottom: 32px;
-}
+
 
 .vision-card {
-    margin-top: 32px;
     padding: 32px;
     border-radius: 16px;
 }
@@ -223,7 +234,7 @@ nav {
 .message-container {
     background-color: white;
     border-radius: 16px;
-    background-image: url(assets/quote-bg.png);
+    background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 24px 25px;
 }
@@ -254,6 +265,7 @@ nav {
 
 /* aurthor section design code end */
 
+/* opinion section code start */
 .opinion {
     padding: 32px;
     background-color: white;
@@ -309,3 +321,52 @@ table tbody td {
     background-color: #C6E4D6;
     border-radius: 5px;
 }
+
+/* opinion section code end */
+/* Recent News sectond code start */
+.news {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+.news-image img {
+    border-radius: 24px;
+}
+
+.news-text h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E80;
+    margin-bottom: 12px;
+}
+
+.time-date {
+    display: flex;
+    align-items: center;
+    color: #0E0E0E70;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.news-para {
+    color: #0E0E0E70;
+    margin-bottom: 32px;
+}
+
+.news-revarce {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 32px;
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+/* Recent News sectond code end */
