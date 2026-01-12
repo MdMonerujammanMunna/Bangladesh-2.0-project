@@ -17,7 +17,8 @@ nav,
 .Pillars-card,
 .vision-container,
 .opinion-container,
-.recent-news-container {
+.recent-news-container,
+.donate-container {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -39,7 +40,8 @@ nav,
 .PillarsCard-container,
 .message-container,
 .opinion-container,
-.recent-news-container {
+.recent-news-container,
+.donate-container {
     margin-bottom: 80px;
 }
 
@@ -52,7 +54,9 @@ nav,
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
+    cursor: pointer;
 }
+
 
 /* main code */
 
@@ -75,13 +79,21 @@ nav {
 
 .sing-up button {
     outline: none;
-    border: 1px solid #006A50;
+    border: 2px solid #006A50;
     border-radius: 8px;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 600;
     color: #006A50;
     background: none;
+    cursor: pointer;
+}
+
+.sing-up button:hover {
+    background-color: #006A50;
+    border: 2px solid #006A50;
+    color: white;
+
 }
 
 /* navigation bar design code end */
@@ -121,6 +133,7 @@ nav {
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 /* banner/hero-section design code end */
@@ -147,6 +160,7 @@ nav {
     font-size: 20px;
     color: #0E0E0E;
     margin-bottom: 12px;
+    cursor: pointer;
 }
 
 .card p {
@@ -200,6 +214,7 @@ nav {
     border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* background color and button color  start*/
@@ -323,7 +338,7 @@ table tbody td {
 }
 
 /* opinion section code end */
-/* Recent News sectond code start */
+/* Recent News section code start */
 .news {
     display: flex;
     align-items: center;
@@ -369,4 +384,57 @@ table tbody td {
     margin-bottom: 24px;
 }
 
-/* Recent News sectond code end */
+/* Recent News section code end */
+/* Donate section code start */
+.donate-container,
+.heading-section {
+    text-align: center;
+}
+
+.amount {
+    padding: 40px;
+    background-color: white;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E15;
+    cursor: pointer;
+}
+
+.amount h1 {
+    font-size: 40px;
+    color: #0E0E0E80;
+}
+
+.amount:hover {
+    background-color: #C6E4D6;
+}
+
+.donate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enter-amount {
+
+    margin-bottom: 32px;
+
+}
+
+.enter-amount input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #0E0E0E60;
+    border: 1px solid #0E0E0E15;
+    border-radius: 10px;
+}
+
+.enter-amount input:focus {
+    background-color: #C6E4D6;
+}
+
+/* Donate section code end */
