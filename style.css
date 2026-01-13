@@ -19,7 +19,8 @@ nav,
 .opinion-container,
 .recent-news-container,
 .donate-container,
-.subscribe-container {
+.subscribe-container,
+.footer-container {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -439,6 +440,7 @@ table tbody td {
 }
 
 /* Donate section code end */
+/* Subscribe section code start */
 .subscribe {
     background-color: #C6E4D6;
     padding: 80px 100px;
@@ -491,4 +493,41 @@ table tbody td {
     font-size: 18px;
     font-weight: 500;
     color: white;
+    cursor: pointer;
 }
+
+/* Subscribe section code end */
+/* Footer section code start */
+footer {
+    background-color: white;
+}
+
+.footer-container {
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-container h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.footer-container hr {
+    margin: 0 13%;
+    background-color: #0E0E0E10;
+    margin-bottom: 32px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons img {
+    height: 24px;
+    width: 24px;
+}
+
+/* Footer section code end */
