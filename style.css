@@ -18,7 +18,8 @@ nav,
 .vision-container,
 .opinion-container,
 .recent-news-container,
-.donate-container {
+.donate-container,
+.subscribe-container {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -41,7 +42,8 @@ nav,
 .message-container,
 .opinion-container,
 .recent-news-container,
-.donate-container {
+.donate-container,
+.subscribe-container {
     margin-bottom: 80px;
 }
 
@@ -416,7 +418,6 @@ table tbody td {
 }
 
 .enter-amount {
-
     margin-bottom: 32px;
 
 }
@@ -438,3 +439,56 @@ table tbody td {
 }
 
 /* Donate section code end */
+.subscribe {
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.subscribe p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    width: 620px;
+    color: #0E0E0E80;
+    margin-bottom: 24px;
+}
+
+.subscribe-input {
+    margin-bottom: 16px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.subscribe-input input {
+    outline: none;
+    background-color: white;
+    border: none;
+}
+
+.subscribe-input input[type="text"] {
+    padding: 18px 40px;
+    width: 600px;
+    border-radius: 14px 0px 0px 14px;
+    color: #0E0E0E;
+}
+
+.subscribe-input input[type="button"] {
+    padding: 15px 34px;
+    border-radius: 0px 14px 14px 0px;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
